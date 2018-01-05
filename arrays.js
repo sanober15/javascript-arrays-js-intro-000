@@ -7,19 +7,19 @@ function addElementToBeginningOfArray(array, element){
 
   return NewArray;
 }
-/*
+
 function destructivelyAddElementToBeginningOfArray(array, element){
- array;
- array = [element, ...array];
+
+ array = [element, ...array]
  return array;
 }
 
 function addElementToEndOfArray(array, element){
-  var n = array;
-  n.push(element);
+  var n = array
+  n.push(element)
   return n;
 }
-
+/*
 function destructivelyAddElementToEndOfArray(array, element){
   array.push(element);
   return array;

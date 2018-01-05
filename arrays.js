@@ -17,15 +17,16 @@ function addElementToEndOfArray(array, element){
   n = [...n, element]
   return n;
 }
-/*
+
+
 function destructivelyAddElementToEndOfArray(array, element){
-  array.push(element);
+  array.push(element)
   return array;
 }
 
 function accessElementInArray(array, index){
-  array;
-  var i = index;
+  array
+  var i = index
   return array[i];
 }
 
@@ -35,19 +36,19 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
 }
 
 function removeElementFromBeginningOfArray(array){
-  var a = array.slice(1);
+  var a = array.slice(1)
   return a;
 }
 
 function destructivelyRemoveElementFromEndOfArray(array){
-  array.pop();
+  array.pop()
   return array;
 }
 
 function removeElementFromEndOfArray(array){
-  var x = [];
-  x = array;
-  x.pop():
+  var x = []
+  x = array
+  x.pop()
   return x;
 }
-*/
+

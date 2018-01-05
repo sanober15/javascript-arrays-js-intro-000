@@ -24,3 +24,14 @@ function destructivelyAddElementToEndOfArray(array, element){
   array = [...array, element];
   return array;
 }
+
+function accessElementInArray(array, index){
+  array;
+  var i = index;
+  return array[i];
+}
+
+
+
+
+
